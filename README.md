@@ -2,7 +2,7 @@
 
 To compile you will need `gcc` compiler and `make`. There are 2 programs:
 
-- `acalc` - calculates Jack Connection Coefficients in special case.
+- `acalc` - computes Jack Connection Coefficients in special case.
 - `graph` - prints partition diagram as graph in DOT language (can be used by graphviz).
 	
 To make `graph` simply write:
