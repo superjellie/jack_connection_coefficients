@@ -10,8 +10,8 @@ To make `graph` simply write:
 $ make graph
 ```
 
-To make `acalc` you need to choose what size of numbers you will use and what format to output.
-In general you make `acalc` like this:
+To make `acalc` you need to choose size of numbers you will use and output format.
+In general one make `acalc` like this:
 ```
 $ make <t|b><d|x><8|16|32|64|128|256|512>
 ``` 
