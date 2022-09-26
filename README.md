@@ -1,8 +1,9 @@
 # How to compile
 
 To compile you will need `gcc` compiler and `make`. There are 2 programs:
-	- `acalc` - calculates Jack Connection Coefficients in special case.
-	- `graph` - prints partition diagram as graph in DOT language (can be used by graphviz).
+
+- `acalc` - calculates Jack Connection Coefficients in special case.
+- `graph` - prints partition diagram as graph in DOT language (can be used by graphviz).
 	
 To make `graph` simply write:
 ```
@@ -16,9 +17,10 @@ $ make <t|b><d|x><8|16|32|64|128|256|512>
 ``` 
 
 Where:
-	- `t` means text-based output, `b` means binary
-	- `d` means print in decimal form (only for text-based), `x` means hex
-	- number is size of numbers to use in bits
+
+- `t` means text-based output, `b` means binary
+- `d` means print in decimal form (only for text-based), `x` means hex
+- number is size of numbers to use in bits
 
 So possible combinations are following:
 ```
@@ -29,8 +31,9 @@ bx8 bx16 bx32 bx64 bx128 bx256 bx512
 # How to use
 
 After compiling you will have two programs in directory:
-	. `graph`
-	. `acalc`
+
+- `graph`
+- `acalc`
 
 Both of them recieve one command-line argument - N for wich calculation is performed.
 Both programs will output in standart stream. If you want to output in file use pipes.
