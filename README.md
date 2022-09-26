@@ -22,7 +22,7 @@ Where:
 - `d` means print in decimal form (only for text-based), `x` means hex
 - number is size of numbers to use in bits
 
-So possible combinations are following:
+All possible combinations are following:
 ```
 td8 td16 td32 td64 tx8 tx16 tx32 tx64 tx128 tx256 tx512
 bx8 bx16 bx32 bx64 bx128 bx256 bx512
